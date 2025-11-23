@@ -1,3 +1,13 @@
+// To avoid hit control and slow loading, use the CDN version:
+// Use https://cdn.jsdelivr.net/gh/AgnosticData/add-scripts-community@main/
+// Example:
+// From:
+//  https://raw.githubusercontent.com/AgnosticData/add-scripts-community/refs/heads/main/<PACKAGE>/standalone.js
+// To:
+//  https://cdn.jsdelivr.net/gh/AgnosticData/add-scripts-community@main/<PACKAGE>/standalone.js
+// Example:
+// <script defer src="https://cdn.jsdelivr.net/gh/AgnosticData/add-scripts-community@main/<PACKAGE>/standalone.js"></script>
+
 (function() {
 
     // ================================
