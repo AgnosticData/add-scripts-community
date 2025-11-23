@@ -53,6 +53,9 @@
     var params = currentUrl.searchParams;
   
     params.set('sck', sckValue);
+    
+    // Cria o caso no agnostic
+    agnostic.utmcase.create(["sck", sckValue]);
   
     var finalUrl = currentUrl.pathname + "?" + params.toString();
     history.replaceState({}, '', finalUrl);
