@@ -12,7 +12,8 @@
   
     // Parâmetros excluídos (blacklist)
     var excluded = [
-      "_meta" // normalmente você não quer isso no sck
+      "_meta", // normalmente você não quer isso no sck
+      "sck"
     ];
   
     // ================================
